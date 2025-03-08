@@ -101,28 +101,36 @@
             "type": "memory",
             "key": "{#separator}│  {#keys}󰍛 Memory",
             "percent": {
-                "green": 20, // [0%, 20%) will be displayed in green
-                "yellow": 40, // [20, 40) will be displayed in yellow and [40, 100] will be displayed in red
-                // "type": [ // Display percent value in monochrome bar, same as 10
-                //     "bar",
-                //     "bar-monochrome"
-                // ]
+                "green": 40,
+                "yellow": 70
             }
         },
         {
             "type": "disk",
             "key": "{#separator}│  {#keys}󰋊 Disk (/)",
-            "folders": "/"
+            "folders": "/",
+            "percent": {
+                "green": 40,
+                "yellow": 70
+            }
         },
         {
             "type": "disk",
             "key": "{#separator}│  {#keys}󰋊 Disk (/home)",
-            "folders": "/home"
+            "folders": "/home",
+            "percent": {
+                "green": 40,
+                "yellow": 70
+            }
         },
         {
             "type": "disk",
             "key": "{#separator}│  {#keys}󰋊 Disk (/nix)",
-            "folders": "/nix"
+            "folders": "/nix",
+            "percent": {
+                "green": 40,
+                "yellow": 70
+            }
         },
         {
             "type": "custom",
